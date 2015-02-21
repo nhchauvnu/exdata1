@@ -1,4 +1,4 @@
-## How to generate plots
+## How to generate plots from power consumption data
 <b>Step 0.</b> Download data from https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
 
 <b>Step 1.</b> Unzip household_power_consumption.zip. There will be 

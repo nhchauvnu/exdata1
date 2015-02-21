@@ -1,8 +1,10 @@
 ## How to generate plots
-Step 1. Unzip household_power_consumption.zip. There will be 
+<b>Step 0.</b> Download data from https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+
+<b>Step 1.</b> Unzip household_power_consumption.zip. There will be 
 a file household_power_consumption.txt.
 
-Step 2. Start R. Then from R prompt, run the following commands:
+<b>Step 2.</b> Start R. Then from R prompt, run the following commands:
 
 source('plot1.R')
 source('plot2.R')

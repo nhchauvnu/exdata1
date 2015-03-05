@@ -1,4 +1,3 @@
-# Using sqldf and lubridate packages
 library(sqldf)
 library(lubridate)
 pwrcon = read.csv.sql('household_power_consumption.txt', header=T, sep=';',

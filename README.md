@@ -16,4 +16,4 @@ source('plot3.R')
 source('plot4.R')
 ```
 
-The commands will create four plots: plot1.png, plot2.png, plot3.png and plot4.png.
+The commands will create four plots: **plot1.png**, **plot2.png**, **plot3.png** and **plot4.png**.

@@ -1,13 +1,12 @@
 ## How to generate plots from power consumption data
-<b>Step 1.</b> 
-The four R scripts will use the following R packages:
-<li>sqldf</li>
-<li>lubridate</li>
+Step 1. The four R scripts will use the following R packages:
+* sqldf
+* lubridate
 
 If your R does not have these packages installed, use the following R command to install them:
-<p>install.packages(repo='http://cran.ism.ac.jp', c('sqldf', 'lubridate'))</p>
+* install.packages(repo='http://cran.ism.ac.jp', c('sqldf', 'lubridate'))
 
-<b>Step 2.</b> Change working directory to where the plot?.R located.
+Step 2. Change working directory to where the plot?.R located.
 Start R. Then from R prompt, run the following commands:
 
 source('plot1.R')

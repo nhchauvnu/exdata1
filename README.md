@@ -1,18 +1,11 @@
 ## How to generate plots from power consumption data
-<b>Step 0.</b> Download data from https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
-On Linux operating system, execute the following command:
-wget https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
-
-The four scripts will use the following R packages:
+<b>Step 1.</b> 
+The four R scripts will use the following R packages:
 <li>sqldf</li>
 <li>lubridate</li>
 
 If your R does not have these packages installed, use the following R command to install them:
 <p>install.packages(repo='http://cran.ism.ac.jp', c('sqldf', 'lubridate'))</p>
-
-<b>Step 1.</b> Unzip household_power_consumption.zip. There will be 
-a file household_power_consumption.txt created. Move the household_power_consumption.txt file
-to a directory containing R script files, i. e. plot1.R, plot2.R, plot3.R and plot4.R.
 
 <b>Step 2.</b> Change working directory to where the plot?.R located.
 Start R. Then from R prompt, run the following commands:
